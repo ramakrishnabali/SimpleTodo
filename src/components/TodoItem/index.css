@@ -1,0 +1,30 @@
+/* Write your CSS here */
+.listContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.description {
+  color: #000000;
+  font-size: 20px;
+  font-family: 'Roboto';
+  font-weight: 600;
+  align-self: center;
+  margin-right: 15px;
+}
+
+.button {
+  color: #ff0b37;
+  background-color: transparent;
+  border: 2px solid #ff0b37;
+  border-radius: 8px;
+  align-self: center;
+  font-size: 15px;
+  margin-left: 18px;
+  cursor: pointer;
+  outline: none;
+}
